@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Jose Gregorio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="iconos/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body data-spy="scroll" data-target="menu">
+    <header  class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="menu">
+            <div class="container-fluid">        
+                <img class="navbar-brand" src="logo-clinica.png" style="height: 95px;width: 300px;">  
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarMain" aria-controls="navbarMain"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            <!--Menu con Bootstrap-->    
+                <div class="collapse navbar-collapse justify-content-center collapse" id="navbarMain">    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Lista de Examenes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Boton resultados Online-->
+            <button class="btn btn-info mb-5 animate__animated animate__fadeInUp animate__slow">
+                Resultado Online</button>
+            </div>
+    </header>    
+    <!--Banner de la Clinica-->
+    <section class="hero text-white" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 d-none d-md-block">
+                    <h1 class="mb-5 animate__animated animate__fadeInUp animate__slow">Laboratorio Clinico</h1>
+                    <h1 class="mb-5 animate__animated animate__fadeInUp animate__slow">San Jose Gregorio Hernandez Cisneros</h1>
+                    <button class="btn btn-info mb-5 animate__animated animate__fadeInUp animate__slow">
+                    Ver Examenes</button>
+                    <button class="btn btn-info mb-5 animate__animated animate__fadeInUp animate__slow">
+                    Leer Mas</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Nosotros-->
+    <section id="sobre-nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1 class="text-muted mt-2 mb-4 wow animate__animated animate__headShake" data-wow-delay="1s">
+                           Sobre Nosotros </h1>
+                        <h5 class="text-info mb-3 wow animate__animated animate__headShake" data-wow-delay="1s">En Laboratorio Clínico San Jose Gregorio Hernandez somos una empresa 
+                            que brinda servicios de Medicina de Laboratorio a través de una amplia cartera de exámenes clínicos y microbiológicos. Contamos con las
+                             siguientes características que nos da la credibilidad en todos estos años:</h5>
+                        <p class="mb-2 text-muted">Gestión de calidad.</p>
+                        <p class="mb-2 text-muted">Modernas herramientas tecnológicas.</p>
+                        <p class="mb-2 text-muted">Equipo humano calificado.</p>
+                        <button class="btn btn-info mb-5 animate__animated animate__fadeInUp animate__slow">
+                            Conocer mas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Servicios-->
+
+    <section class="mt-5" id="galeria">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="swiper-container pb-4 wow animate__animated animate__fadeInRight">
+                        <div class="swiper-wrapper text-center">
+                            <div class="swiper-slide">
+                                <img src="img1.JPG" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img2.JPG" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img3.JPG" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img4.JPG" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img5.JPG" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img6.JPG" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img7.JPG" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img8.JPG" alt="" />
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5 col-lg-3 text-center text-sm-left mt-5 text-white">
+                    <div class="mb-3">
+                        <h3>Nuestros Servicios</h3>
+                    </div>
+                    <p>Tenenemos especialidades para su cuidado</p>
+                    <button type="button" class="btn btn-info">Saber más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--VALORES-->
+
+    <section id="precio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center text-muted mb-5">
+                        <h1>Nuestros valores</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <i class="fas fa-handshake" ></i>
+                            </div>
+                            <h4>Compromiso</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <i class="fas fa-hand-holding-medical"></i>
+                            </div>
+                            <h4>Profesionalismo</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h4>Liderazgo</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <i class="fas fa-user-nurse"></i>
+                            </div>
+                            <h4>Vocacion de Servicio</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FORMULARIO-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" method="post">
+                        <fieldset>
+                            <legend class="text-center header">Contactanos</legend>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="text" placeholder="Correo Electronico" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="phone" name="phone" type="text" placeholder="Celular" class="form-control">
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Enviar mensaje" rows="7"></textarea>
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--PÁGINAS-SERVICIOS-CONTÁCTANOS-->
+<footer>
+    <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xs-12 about-company">
+              <!--<img src="logo-clinica.png">-->
+            </div>
+            <div class="col-lg-3 col-xs-12 links">
+              <h4 class="mt-lg-0 mt-sm-3">Paginas</h4>
+                <ul class="m-0 p-0">
+                  <li>- <a href="#">Inicio</a></li>
+                  <li>- <a href="#">Nosotros</a></li>
+                  <li>- <a href="#">Servicios</a></li>
+                  <li>- <a href="#">Lista de Examenes</a></li>
+                  <li>- <a href="#">Contacto</a></li>
+                  <li>- <a href="#">Resultados Online</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-xs-12 location">
+              <h4 class="mt-lg-0 mt-sm-4">Direccion</h4>
+              <p>Av. Cesar Vallejo y Av. Cesar Mariategui. Referencia Ovalo de La Paz, El Agustino.</p>
+              <p><i class="fa fa-envelope-o mr-3"></i>Oficina Administrativa: Calle Tegucigalpa 270- Santa Patricia Primera etapa- La Molina.</p>
+              <p class="mb-0"><i class="fa fa-phone mr-3"></i>999031968</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col copyright">
+              <p class=""><small class="text-white-50">© 2021. All Rights Reserved.</small></p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            }
+        })
+        // WOW
+        new WOW().init()
+    </script>
+</body>
+</html>
